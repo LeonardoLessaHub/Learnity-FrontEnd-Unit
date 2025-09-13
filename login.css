@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #a6e3f5;
+}
+
+
+.header {
+    background-color: #a6e3f5;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #fff;
+}
+
+
+
+.logo img {
+    width: 200px;
+    margin-right: 8px;
+}
+
+.btn-criar-conta {
+    background: none;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 5px 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.form-box {
+    background: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.form-box h2 {
+    color: #178dbf;
+    margin-bottom: 20px;
+}
+
+.form-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.extra-links {
+    text-align: left;
+    margin: 5px 0;
+}
+
+.extra-links a {
+    font-size: 12px;
+    color: #178dbf;
+    text-decoration: none;
+}
+
+.lembrar {
+    display: flex;
+}
+
+.btn-continuar {
+    background-color: #a6e3f5;
+    border: 1px solid #000;
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+}

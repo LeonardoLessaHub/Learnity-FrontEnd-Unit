@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #fff;
+    color: #333;
+}
+
+/* layout geral */
+.app {
+    display: flex;
+    height: 100vh;
+}
+
+/* sidebar */
+.sidebar {
+    width: 220px;
+    background: #e6f9ff;
+    border-right: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.sidebar-toggle {
+    background: #19a7c6;
+    color: #fff;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.logo-area {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+.logo {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: #19a7c6;
+}
+
+.brand {
+    color: #19a7c6;
+    font-weight: bold;
+}
+
+.menu h3,
+.menu h4 {
+    font-size: 14px;
+    margin: 10px 0 5px;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu li {
+    padding: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.menu li:hover {
+    background: #d0f0f9;
+}
+
+.menu li span.active {
+    font-weight: bold;
+}
+
+.count {
+    float: right;
+    color: #19a7c6;
+}
+
+.config {
+    margin-top: auto;
+    padding: 10px;
+    font-size: 14px;
+}
+
+/* main */
+.main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* filtros no topo */
+.filters {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.filter {
+    padding: 6px 16px;
+    border-radius: 20px;
+    border: none;
+    background: #c8f0fb;
+    cursor: pointer;
+}
+
+.filter.active {
+    background: #19a7c6;
+    color: #fff;
+}
+
+/* tarefas */
+.tasks {
+    padding: 20px;
+    flex: 1;
+}
+
+.tasks h3 {
+    margin: 10px 0;
+}
+
+.task {
+    display: inline-block;
+    background: #19a7c6;
+    color: #fff;
+    padding: 10px 16px;
+    border-radius: 20px;
+    margin: 6px;
+}
+
+.bookmark {
+    margin-left: 8px;
+}
+
+/* footer */
+.footer {
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #ccc;
+    padding: 12px;
+}

@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+/* -------- HOME -------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter';
+}
+
+body {
+  background: linear-gradient(180deg, #2193B0, #6DD5ED);
+  color: #000;
+  text-align: center;
+}
+
+body p {
+  font-family: 'Inter', sans-serif;
+}
+
+.logo-learnity {
+  width: 200px;
+  height: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: #ffffff;
+}
+
+header img {
+  height: 40px;
+}
+
+nav {
+  display: flex;
+  gap: 10px;
+}
+
+nav button {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: 'Inter', sans-serif;
+}
+
+.btn-planos {
+  background: #1DD6FF;
+  color: #fff;
+}
+
+.btn-conta {
+  background: #fff;
+  border: 2px solid #000;
+}
+
+.btn-aluno {
+  background: #000;
+  color: #fff;
+}
+
+h1 {
+  font-family: 'Inter', sans-serif;
+  margin-top: 40px;
+  font-size: 46px;
+}
+
+h1 span {
+  color: #72F1FF;
+}
+
+p.sub {
+  margin-top: 10px;
+  font-size: 15px;
+  color: #000000;
+  font-style: italic;
+  opacity: 70%;
+}
+
+.btn-teste {
+  margin: 30px auto;
+  display: inline-block;
+  background: #82F2FF;
+  color: #fff;
+  font-size: 29px;
+  font-weight: bold;
+  padding: 10px 50px;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.btn-feedback {
+  font-family: 'Inter', sans-serif;
+  display: inline-block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background: transparent;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  color: #0D47A1;
+  font-weight: bold;
+  background: #ffffff;
+  cursor: pointer;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  font-weight: 900;
+}
+
+.planos {
+  margin: 30px auto;
+}
+
+.planos h1 {
+  margin-bottom: 20px;
+  color: #fff;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  font-size: 40px;
+}
+
+.planos-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.plano {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 6px 4px rgba(0, 0, 0, 0.2);
+}
+
+.plano h3 {
+  margin-bottom: 10px;
+  color: #2193B0;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.plano h2 {
+  color: #72F1FF;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-weight: 900;
+  font-size: 50px;
+}
+
+.plano p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #2193B0
+}
+
+.feedbacks {
+  margin: 50px auto;
+}
+
+.feedbacks h3 {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  font-size: 35px;
+}
+
+.feedbacks-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.feedback {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 200px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+}
+
+
+
+.feedbacks {
+  margin: 50px auto;
+}
+
+.feedbacks h3 {
+  margin-bottom: 20px;
+  color: #0D47A1;
+  font-style: italic;
+  font-weight: 800;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.feedbacks-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  padding: 0 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.feedback {
+  background: #82F2FF;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  background: #fff;
+  padding: 10px;
+  text-align: center;
+  font-size: 12px;
+  margin-top: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.direita {
+  display: flex;
+  flex-direction: column;
+  /* Isso empilha os elementos verticalmente */
+  align-items: flex-end;
+}
+
+footer p {
+  margin-bottom: -60px;
+  font-weight: 800;
+  text-align: left;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  /* Empilha os links um em cima do outro */
+  text-align: right;
+  margin-bottom: 0px;
+  margin: 10px 0;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  margin: 0px 0px;
+  margin-bottom: 0px;
+}
+
+.social img {
+  width: 25px;
+  margin: 0 5px;
+  vertical-align: middle;
+  margin-bottom: -10px;
+}
+
+.divisoria {
+  border: none;
+  /* remove borda padrão */
+  height: 10px;
+  /* espessura da linha */
+  background: #fff;
+  /* cor da linha */
+  margin: 0px auto;
+  /* espaço em cima e embaixo */
+  width: 100%;
+  /* largura da linha */
+}
