@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Learnity - Tarefas</title>
+    <link rel="stylesheet" href="principal2.css" />
+</head>
+
+<body>
+    <div class="app">
+
+        <!-- SIDEBAR -->
+        <aside id="sidebar" class="sidebar" aria-expanded="true">
+            <button id="sidebarToggle" class="sidebar__toggle" aria-label="Fechar menu"
+                aria-expanded="true">&lt;</button>
+
+            <div class="sidebar__brand">
+                <img src="logo.png" alt="" class="logo" />
+                <span class="brand-text">Learnity</span>
+            </div>
+
+            <nav class="sidebar__nav" aria-label="Navegação de categorias">
+                <h3>BUSCAR</h3>
+                <h4>CATEGORIA</h4>
+                <ul>
+                    <li><button class="filter-btn" data-category="all">TODOS <span class="count">4</span></button></li>
+                    <li><button class="filter-btn" data-category="a">A</button></li>
+                    <li><button class="filter-btn" data-category="b">B</button></li>
+                    <li><button class="filter-btn" data-category="c">C</button></li>
+                    <li><button class="filter-btn" data-category="d">D</button></li>
+                </ul>
+            </nav>
+
+            <div class="sidebar__footer">⚙️ Configurações</div>
+        </aside>
+
+        <!-- MAIN -->
+        <main class="main">
+            <!-- filtros no topo -->
+            <header class="filters" role="toolbar" aria-label="Filtros">
+                <button class="filter-btn active" data-category="all">TODOS</button>
+                <button class="filter-btn" data-category="a">A</button>
+                <button class="filter-btn" data-category="b">B</button>
+                <button class="filter-btn" data-category="c">C</button>
+                <button class="filter-btn" data-category="d">D</button>
+            </header>
+
+            <!-- lista de tarefas/atividades -->
+            <section class="tasks" aria-live="polite">
+                <h3>HOJE</h3>
+                <div class="task" data-category="d">ATIVIDADE DE MATEMÁTICA <span class="bookmark">🔖</span></div>
+                <div class="task" data-category="b">ATIVIDADE B <span class="bookmark">🔖</span></div>
+
+                <h3>FUTUROS</h3>
+                <div class="task" data-category="d">ATIVIDADE DE MATEMÁTICA <span class="bookmark">🔖</span></div>
+                <div class="task" data-category="a">ATIVIDADE A <span class="bookmark">🔖</span></div>
+                <div class="task" data-category="c">ATIVIDADE C <span class="bookmark">🔖</span></div>
+            </section>
+
+            <!-- footer (menu inferior) -->
+            <footer class="footer">
+                <div>📋 TAREFAS</div>
+                <div>📅 CALENDÁRIO</div>
+                <div>➕</div>
+                <div>📑 RELATÓRIOS</div>
+                <div>👤 PERFIL</div>
+            </footer>
+        </main>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>
