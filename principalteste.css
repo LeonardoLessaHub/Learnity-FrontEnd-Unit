@@ -15,53 +15,87 @@ body {
     display: flex;
     height: 100vh;
 }
+.logo-learnity {
+    width: 200px;
+    height: 50px;
+}
 
-/* sidebar */
+.logo {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+
 .sidebar {
     width: 220px;
-    background: #e6f9ff;
     border-right: 1px solid #ccc;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 10px;
 }
 
-.sidebar-toggle {
-    background: #19a7c6;
-    color: #fff;
+.btn-buscar {
     border: none;
-    padding: 6px 10px;
-    border-radius: 5px;
+    padding: 20px 81px;
+    justify-content: center;
+    background-color: #2193B0;
+    color: white;
     cursor: pointer;
-    margin-bottom: 10px;
 }
 
-.logo-area {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    margin-bottom: 10px;
+.btn-categoria {
+    border: none;
+    padding: 20px 70px;
+    justify-content: center;
+    background-color: #21AACD;
+    color: black;
+    cursor: pointer;
 }
 
-.logo {
-    width: 36px;
-    height: 36px;
-    border-radius: 50%;
-    background: #19a7c6;
+.btn-todos2 {
+    border: none;
+    padding: 20px 86px;
+    justify-content: center;
+    background-color: #DBF8FF;
+    color: black;
+    cursor: pointer;
 }
 
-.brand {
-    color: #19a7c6;
-    font-weight: bold;
+.btn-a {
+    border: none;
+    padding: 20px 105px;
+    justify-content: center;
+    background-color: #C2F3FF;
+    color: black;
+    cursor: pointer;
 }
 
-.menu h3,
-.menu h4 {
-    font-size: 14px;
-    margin: 10px 0 5px;
+.btn-b {
+    border: none;
+    padding: 20px 105px;
+    justify-content: center;
+    background-color: #DBF8FF;
+    color: black;
+    cursor: pointer;
 }
 
+.btn-c {
+        border: none;
+    padding: 20px 104px;
+    justify-content: center;
+    background-color: #C2F3FF;
+    color: black;
+    cursor: pointer;
+}
+
+.btn-d {
+    border: none;
+    padding: 20px 104px;
+    justify-content: center;
+    background-color: #DBF8FF;
+    color: black;
+    cursor: pointer;
+    border-bottom: 1px solid #ccc;
+}
 .menu ul {
     list-style: none;
 }
@@ -85,10 +119,13 @@ body {
     color: #19a7c6;
 }
 
-.config {
-    margin-top: auto;
-    padding: 10px;
+.btn-config {
+    margin: auto;
+    padding: 20px 64px;
     font-size: 14px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
 }
 
 /* main */
@@ -99,25 +136,29 @@ body {
 }
 
 /* filtros no topo */
-.filters {
+.filtros {
     display: flex;
     justify-content: center;
-    gap: 12px;
-    padding: 10px;
+    gap: 20px;
+    padding: 17px;
     border-bottom: 1px solid #ccc;
 }
 
-.filter {
-    padding: 6px 16px;
+.filtro {
+    padding: 12px 40px;
     border-radius: 20px;
     border: none;
     background: #c8f0fb;
     cursor: pointer;
 }
 
-.filter.active {
+.filtro-todos {
     background: #19a7c6;
     color: #fff;
+    border-radius: 20px;
+    border: none;
+    padding: 12px 40px;
+    cursor: pointer;
 }
 
 /* tarefas */
@@ -143,10 +184,46 @@ body {
     margin-left: 8px;
 }
 
-/* footer */
+
 .footer {
     display: flex;
     justify-content: space-around;
     border-top: 1px solid #ccc;
     padding: 12px;
+}
+
+.btn-tarefas {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    display: grid;
+}
+
+.btn-calendario {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    display: grid;
+}
+
+.btn-mais {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    display: grid;
+}
+.btn-relatorios {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    display: grid;
+}
+.btn-perfil {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    display: grid;
+}
+.imagens img {
+    width: 60px;
 }

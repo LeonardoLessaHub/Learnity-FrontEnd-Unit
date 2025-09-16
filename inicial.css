@@ -8,6 +8,10 @@
   font-family: 'Inter';
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: linear-gradient(180deg, #2193B0, #6DD5ED);
   color: #000;
@@ -62,6 +66,7 @@ nav button {
 .btn-aluno {
   background: #000;
   color: #fff;
+  margin: 2px
 }
 
 h1 {
@@ -71,7 +76,7 @@ h1 {
 }
 
 h1 span {
-  color: #72F1FF;
+  color: #70f1ff;
 }
 
 p.sub {
@@ -109,6 +114,7 @@ p.sub {
   cursor: pointer;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
   font-weight: 900;
+  text-decoration: none;
 }
 
 .planos {

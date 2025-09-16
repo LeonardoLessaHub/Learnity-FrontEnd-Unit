@@ -10,7 +10,6 @@ body {
     background: #aee6f8;
 }
 
-/* Header */
 .header {
     display: flex;
     align-items: center;
@@ -24,8 +23,8 @@ body {
 }
 
 .logo img {
-    width: 40px;
-    height: 40px;
+    width: 200px;
+    margin-right: 8px;
 }
 
 .logo h1 {

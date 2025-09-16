@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learnity - Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800;900&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="login.css">
 </head>
 
@@ -16,7 +19,7 @@
             <img src="imagens/Learnity Logo.png" alt="logo">
         </div>
         <form action="cadastro.html">
-            <a href="cadastro.html" class="btn-criar-conta">CRIAR CONTA</a>
+            <button class="btn-criar-conta">CRIAR CONTA</button>
         </form>
     </div>
 
@@ -24,24 +27,20 @@
     <div class="container">
         <div class="form-box">
             <h2>LOGIN</h2>
-            <form>
-                <input type="email" placeholder="Email" required>
-                <input type="password" placeholder="Senha" required>
+            <form action="principal.html">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Senha">
 
                 <div class="extra-links">
                     <a href="recuperacao.html">Esqueceu a senha?</a>
                 </div>
                 <div class="remember">
-
-                    <input type="checkbox" id="lembrar">
-                    <label for="lembrar">Lembrar de mim
+                    <label class="remember-label">
+                    <input type="checkbox" id="lembrar" name="lembrar">
+                        Lembrar de mim
                     </label>
                 </div>
-
-
-                <button class="btn-continuar">
-                    <a href="principalteste.html">CONTINUAR </a></button>
-
+                <button class="btn-continuar">ENTRAR</button> 
             </form>
         </div>
     </div>
